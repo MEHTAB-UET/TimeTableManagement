@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Container for the main content */
+div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Message alert */
+p {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+/* Popup container for name submission */
+div > div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div > div input {
+  width: 80%;
+  max-width: 300px;
+}
+
+/* Lecture List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+  background-color: #e9ecef;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  div {
+    padding: 15px;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  button {
+    width: 100%;
+  }
+}
